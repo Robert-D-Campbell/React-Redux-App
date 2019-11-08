@@ -9,9 +9,7 @@ const Card = props => {
         )
     } else {
         return (
-            <div className='card-container'>
-                <p>{props.card.name}</p>
-            </div>
+            null
         )
     }
 
